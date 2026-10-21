@@ -1,0 +1,14 @@
+{
+  "name": "folder-lens",
+  "version": "1.2.0",
+  "private": true,
+  "description": "A single-file, offline, read-only folder size and depth analyzer.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check.cjs",
+    "update:csp": "node scripts/check.cjs --write",
+    "release:check": "node scripts/release.cjs"
+  }
+}

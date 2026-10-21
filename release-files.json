@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "version": "1.2.0",
+  "repository": "MarkTian-Long/folder-lens",
+  "files": [
+    ".gitattributes",
+    ".github/workflows/ci.yml",
+    ".gitignore",
+    "FolderLens.html",
+    "LICENSE",
+    "README.md",
+    "README.en.md",
+    "THIRD_PARTY_NOTICES.md",
+    "VALIDATION.md",
+    "CHANGELOG.md",
+    "package.json",
+    "release-files.json",
+    "scripts/check.cjs",
+    "scripts/release.cjs",
+    "tests/README.md",
+    "tests/core-edgecases.test.cjs",
+    "tests/depth-summary.test.cjs",
+    "tests/filesystem-accuracy.test.cjs",
+    "tests/release-boundaries.test.cjs",
+    "tests/ui-behavior.test.cjs",
+    "tests/helpers/fixture.cjs",
+    "tests/helpers/load-core.cjs",
+    "tests/helpers/load-ui.cjs"
+  ]
+}

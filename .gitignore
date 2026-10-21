@@ -1,0 +1,18 @@
+# Local backups, private verification records and temporary downloads
+.local/
+
+# Real scan exports must stay on the user's machine
+exports/
+*.csv
+
+# Rebuildable development artifacts
+node_modules/
+.cache/
+coverage/
+*.log
+
+# Local credentials and operating-system metadata
+.env
+.env.*
+.DS_Store
+Thumbs.db
